@@ -434,10 +434,30 @@ footer {
     top: 430px;
     left: 10px;
   }
-
-  .social-icons {
-  }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+  footer {
+     position: fixed;
+     left: 0px;
+     bottom: 0px;
+     width: 100%;
+     background: turquoise;
+     height: 70px;
+  }
+
+  .soon {
+    width: 30%;
+  }
+
+.all-left {
+  float: left;
+}
+
+  .all-right {
+    width: 60%;
+    float: right;
+    top: 430px;
+    left: 10px;
+  }
 }
