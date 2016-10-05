@@ -18,14 +18,8 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  min-width: 1200px;
-}
-
-.background {
-  position: absolute;
-  opacity: 90%;
-  width: 100%;
-  repeat:
+  margin: 0;
+  padding:0;
 }
 
 /*--------------------------------------------------------------talking stuff----*/
@@ -176,7 +170,6 @@ a:hover {
 /*--------------------------------------------------------------image grid----*/
 
 .all-right {
-  float: right;
   width: 50%;
   top: 70px;
 }
@@ -254,13 +247,13 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   text-align: center;
-  font-size: 32px;
+  font-size: 25px;
 }
 
 h1 {
   font-family: 'Bitter', serif;
   font-weight: 400;
-  margin-top: 90px;
+  margin-top: 10px;
   text-align: center;
   font-size: 56px;
   color: #242424;
@@ -280,12 +273,11 @@ h2:before, h2:after {
 .desc {
   margin: 1em 0 0;
   font-family: 'Bitter', serif;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 11px;
-  line-height: 1.5;
-  color: turquoise;
+  color: white;
 }
 
 .grid--item:hover .img:before,
@@ -301,33 +293,32 @@ h2:before, h2:after {
 
 @media only screen and (max-width: 427px) {
 .logo {
-  top: 5%;
-  left: 30px;
+  position: relative;
+  left: 20px;
+  top: 20px;
 }
 
-.title {
+.name {
   font-size: 2em;
-  top: 27%;
-  left: 30px;
+  width: 100%;
+  position: relative;
+  left: 20px;
+  top: 30px;
 }
 
 .bar {
-  top: 40%;
-  left: 30px;
+  position: relative;
+  left: 20px;
+  top: 10px;
 }
 
 .soon {
-  width: 70%;
-  top: 42%;
-  left: 30px;
-}
-
-.background {
-  display: none;
-}
-
-.pinkbr {
-  display: none;
+  width: 90%;
+  position: absolute;
+  left: 20px;
+  padding: 0;
+  margin: 0;
+  top: 250px;
 }
 
 body {
@@ -335,9 +326,37 @@ body {
 }
 
 footer {
-  top: 90%;
-  left: 30px;
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 70px;
+   width: 100%;
+   background: turquoise;
+   padding: 5% 20%;
 }
+
+.social-icons {
+  position: absolute;
+  margin: 0;
+  z-index: 6;
+}
+
+.all-right {
+  float: right;
+  width: 100%;
+  position: absolute;
+  top: 430px;
+}
+
+.grid--item {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  float: left;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
     }
 
 @media only screen and (min-width: 1500px) and (max-width: 2000px) {
