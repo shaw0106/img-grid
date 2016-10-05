@@ -38,9 +38,6 @@ body {
   float: left;
   transition: all 0.5s;
   overflow: hidden;
-  -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  -webkit-shape-outside: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 .grid--item:before {
   display: block;
@@ -99,16 +96,15 @@ body {
   shape-outside: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
-h1,
 h2 {
-  font-family: 'Arapey';
-  font-style: italic;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
 }
 
 h1 {
+  font-family: 'Bitter', serif;
+  font-weight: 200;
   margin-top: 90px;
-  text-align: center;
   font-size: 56px;
   color: #242424;
 }
@@ -129,7 +125,7 @@ h2:before, h2:after {
 
 .desc {
   margin: 1em 0 0;
-  font-family: 'ATC Overlook';
+  font-family: 'Bitter', serif;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: bold;
