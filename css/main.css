@@ -28,10 +28,6 @@ body {
   repeat:
 }
 
-.all-left {
-  left: 70px;
-}
-
 /*--------------------------------------------------------------talking stuff----*/
 
 .pinkbr {
@@ -101,14 +97,19 @@ a:hover {
   color: #fff;
 }
 
+.icons {
+  left: 70px;
+  top: 90%;
+  position: absolute;
+  z-index: 6;
+}
+
 .social-icons {
   list-style-type: none;
-  margin: 0 auto 20px;
   padding: 0;
   width: 250px;
   height: 100px;
   z-index: 3;
-  left: 70px;
 }
 
 .tab {
