@@ -17,8 +17,7 @@ html {
 }
 
 body {
-  background-image: url("img/bg-pattern-01.png");
-  background-repeat: repeat-x;
+  background-image: url("img/outline-01.png");
   -webkit-font-smoothing: antialiased;
   min-width: 1200px;
 }
@@ -42,6 +41,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 8px;
   font-size: .9em;
+}
+
+/*--------------------------------------------------------------image grid----*/
+
+.img-grid {
+  
 }
 
 .grid {
