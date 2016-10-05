@@ -17,7 +17,6 @@ html {
 }
 
 body {
-  background-image: url("img/outline-01.png");
   -webkit-font-smoothing: antialiased;
   min-width: 1200px;
 }
@@ -30,7 +29,7 @@ body {
 }
 
 .name {
-  color: white;
+  color: #0a2739;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: -1.5px;
 }
@@ -46,7 +45,7 @@ body {
 /*--------------------------------------------------------------image grid----*/
 
 .img-grid {
-  
+
 }
 
 .grid {
@@ -79,8 +78,8 @@ body {
   background-position: center center;
   background-size: cover;
   overflow: hidden;
-  -webkit-clip-path: inset(0 0 0 0);
-  clip-path: inset(0 0 0 0);
+  -webkit-clip-path: inset(0 0 0 0 round 1%);
+  clip-path: inset(0 0 0 0 round 1%);
 }
 .img:before, .img:after {
   position: absolute;
@@ -93,7 +92,7 @@ body {
   transition: opacity 0.5s;
 }
 .img:before {
-  background: rgba(128, 0, 128, 0.25);
+  background: rgba(226, 153, 141, 0.25);
 }
 .img:after {
   background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5), transparent);
