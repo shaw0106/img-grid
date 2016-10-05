@@ -16,12 +16,18 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
-  background: #0a2739;
   background-image: url("img/bg-pattern-01.png");
+  background-repeat: repeat-x;
   -webkit-font-smoothing: antialiased;
   min-width: 1200px;
+}
+
+.background {
+  position: absolute;
+  opacity: 90%;
+  width: 100%;
+  repeat:
 }
 
 .name {
