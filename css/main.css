@@ -44,10 +44,6 @@ body {
 
 /*--------------------------------------------------------------image grid----*/
 
-.img-grid {
-
-}
-
 .grid {
   padding: 60px;
   margin: 0 auto;
@@ -58,7 +54,7 @@ body {
   position: relative;
   margin-top: 10px;
   margin-right: 10px;
-  width: calc(33.33% - 10px);
+  width: calc(33.33% - 20px);
   float: left;
   transition: all 0.5s;
   overflow: hidden;
@@ -81,6 +77,11 @@ body {
   -webkit-clip-path: inset(0 0 0 0 round 1%);
   clip-path: inset(0 0 0 0 round 1%);
 }
+
+.inside-img {
+  height: 100%;
+}
+
 .img:before, .img:after {
   position: absolute;
   top: 0;
@@ -92,10 +93,10 @@ body {
   transition: opacity 0.5s;
 }
 .img:before {
-  background: rgba(226, 153, 141, 0.25);
+  background: rgba(226, 153, 141, 0.4);
 }
 .img:after {
-  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5), transparent);
+  background: linear-gradient(to top, transparent, rgba(174, 63, 63, 0.5), transparent);
 }
 
 .container {
@@ -158,3 +159,251 @@ h2:before, h2:after {
 .grid--item:hover .container {
   transform: translate(-50%, -50%) scale(1);
 }
+
+
+
+/*--------------------------------------------------------------talking stuff----*/
+
+
+
+.pinkbr {
+  position: absolute;
+  display: inline-block;
+  width: 40%;
+  min-height: 750px;
+  min-width: 500px;
+  z-index: 2;
+}
+
+.background {
+  width: 100%;
+  min-width: 1200px;
+  display: block;
+  }
+
+.logo {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  width: 5%;
+  min-width: 75px;
+  z-index: 3;
+}
+
+.title {
+  font-family: 'Bitter', serif;
+  position: absolute;
+  top: 180px;
+  left: 70px;
+  width: 100%;
+  color: #0a2739;
+  font-size: 3em;
+  z-index: 3;
+}
+
+.bar {
+  position: absolute;
+  width: 40px;
+  top: 280px;
+  left: 70px;
+  z-index: 3;
+}
+
+.soon {
+  font-family: 'Quicksand', sans-serif;
+  position: absolute;
+  top: 290px;
+  left: 70px;
+  width: 28%;
+  line-height: 2em;
+  font-size: 1em;
+  color: #0a2739;
+  z-index: 3;
+}
+
+a {
+  color: #0a2739;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.social-icons {
+  list-style-type: none;
+  margin: 0 auto 20px;
+  padding: 0;
+  width: 250px;
+  height: 100px;
+  z-index: 3;
+}
+
+.tab {
+  margin-right: 10px;
+  border-radius: 0 0 25px 25px;
+  float: left;
+}
+
+.circle {
+  padding: 10px 10px;
+  width: 40px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 25px;
+  border: solid 2px;
+}
+
+.fa-behance {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-behance:hover {
+  background-color: #0a2739;
+}
+
+.fa-instagram {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-instagram:hover {
+  background-color: #0a2739;
+}
+
+.fa-vimeo {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-vimeo:hover {
+  background-color: #0a2739;
+}
+
+.fa-linkedin {
+  color: #0a2739;
+  border-color: #0a2739;
+}
+
+.fa-linkedin:hover {
+  background-color: #0a2739;
+}
+
+.fa-behance:hover, .fa-instagram:hover, .fa-vimeo:hover, .fa-linkedin:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.screen-reader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+footer {
+  position: absolute;
+  bottom: 3%;
+  left: 70px;
+  z-index: 3;
+}
+
+/*--------------------------------------------------------------breakpoints----*/
+
+@media only screen and (max-width: 1000px) {
+.logo {
+  width: 8%;
+}
+
+.title {
+  top: 30%;
+  left: 70px;
+  width: 100%;
+  font-size: 2em;
+  }
+
+.bar {
+  width: 30px;
+  top: 43%;
+}
+
+  .soon {
+    top: 45%;
+    left: 70px;
+    width: 35%;
+    line-height: 2em;
+    font-size: .80em;
+  }
+
+.background {
+  display: block;
+}
+
+  footer {
+    bottom: 1%;
+  }
+    }
+
+@media only screen and (max-width: 427px) {
+.logo {
+  top: 5%;
+  left: 30px;
+}
+
+.title {
+  font-size: 2em;
+  top: 27%;
+  left: 30px;
+}
+
+.bar {
+  top: 40%;
+  left: 30px;
+}
+
+.soon {
+  width: 70%;
+  top: 42%;
+  left: 30px;
+}
+
+.background {
+  display: none;
+}
+
+.pinkbr {
+  display: none;
+}
+
+body {
+  background-color: #e2998d;
+}
+
+footer {
+  top: 90%;
+  left: 30px;
+}
+    }
+
+@media only screen and (min-width: 1500px) and (max-width: 2000px) {
+.title {
+font-size: 3em;
+top: 300px;
+}
+
+.bar {
+top: 410px;
+}
+
+.soon {
+width: 25%;
+top: 425px;
+}
+
+.background {
+  display: block;
+}
+
+footer {
+  bottom: 1%;
+}
+      }
