@@ -18,9 +18,24 @@ html {
 
 
 body {
-  background: #dedede;
+  background: #0a2739;
+  background-image: url("img/bg-pattern-01.png");
   -webkit-font-smoothing: antialiased;
   min-width: 1200px;
+}
+
+.name {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: -1.5px;
+}
+
+.subber {
+  color: turquoise;
+  font-family: 'Bitter', serif;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: .9em;
 }
 
 .grid {
@@ -31,27 +46,17 @@ body {
 
 .grid--item {
   position: relative;
-  margin-top: -90px;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
   width: calc(33.33% - 10px);
   float: left;
   transition: all 0.5s;
   overflow: hidden;
-  -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  -webkit-shape-outside: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 .grid--item:before {
   display: block;
   padding-top: 112.5%;
   content: '';
-}
-.grid--item:nth-child(1), .grid--item:nth-child(2) {
-  margin-top: 0;
-}
-.grid--item:nth-child(7n - 1), .grid--item:nth-child(1) {
-  margin-left: 185px;
 }
 
 .img {
@@ -63,8 +68,8 @@ body {
   background-position: center center;
   background-size: cover;
   overflow: hidden;
-  -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  clip-path: polygon(16% 0%, 0% 100%, 100% 100%, 100% 0%);
+  -webkit-clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
 }
 .img:before, .img:after {
   position: absolute;
@@ -95,26 +100,24 @@ body {
   backface-visibility: hidden;
   transform: translate(-50%, -50%) scale(0.9);
   transition: all 0.5s;
-  -webkit-shape-outside: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  shape-outside: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
 h2 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
+  text-align: center;
+  font-size: 32px;
 }
 
 h1 {
   font-family: 'Bitter', serif;
   font-weight: 200;
   margin-top: 90px;
+  text-align: center;
   font-size: 56px;
   color: #242424;
 }
 
-h2 {
-  font-size: 32px;
-}
 h2:before, h2:after {
   display: inline-block;
   margin: 0 0.5em;
