@@ -24,21 +24,6 @@ body {
 
 /*--------------------------------------------------------------talking stuff----*/
 
-.pinkbr {
-  position: absolute;
-  display: inline-block;
-  width: 40%;
-  min-height: 750px;
-  min-width: 500px;
-  z-index: 2;
-}
-
-.background {
-  width: 100%;
-  min-width: 1200px;
-  display: block;
-  }
-
 .logo {
   position: absolute;
   top: 70px;
@@ -104,6 +89,8 @@ a:hover {
   width: 250px;
   height: 100px;
   z-index: 3;
+  margin: auto;
+  padding-top: 20px;
 }
 
 .tab {
@@ -170,8 +157,7 @@ a:hover {
 /*--------------------------------------------------------------image grid----*/
 
 .all-right {
-  width: 50%;
-  top: 70px;
+  width: 60%;
 }
 
 .grid {
@@ -291,7 +277,7 @@ h2:before, h2:after {
 
 /*--------------------------------------------------------------break points----*/
 
-@media only screen and (min-width: 0px) and (max-width: 427px) {
+@media only screen and (min-width: 0px) and (max-width: 430px) {
 .logo {
   position: relative;
   left: 20px;
@@ -330,32 +316,34 @@ footer {
    position: fixed;
    left: 0px;
    bottom: 0px;
-   height: 70px;
+   height: 60px;
    width: 100%;
    background: turquoise;
-   padding: 5% 20% 10% 20%;
+   padding: 7% 25% 15% 25%;
 }
 
 .social-icons {
   position: absolute;
-  margin: 0;
   z-index: 6;
+  margin: auto;
+  padding-bottom: 20px;
 }
 
 .all-right {
-  float: right;
   width: 100%;
   position: relative;;
   padding: 25% 5% 25% 5%;
+  margin-bottom: 170px;
 }
 
 .grid--item {
   position: relative;
   width: 100%;
-  max-width: 350px;
+  max-width: 400px;
   float: left;
   transition: all 0.5s;
   overflow: hidden;
+  padding-bottom: 10px;
 }
     }
 
@@ -410,7 +398,6 @@ footer {
     }
 
     .all-right {
-      float: right;
       width: 100%;
       position: relative;;
       padding: 5% 5% 0 5%;
@@ -426,26 +413,31 @@ footer {
     }
 }
 
-@media only screen and (min-width: 1500px) and (max-width: 2000px) {
-.title {
-font-size: 3em;
-top: 300px;
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  footer {
+     position: fixed;
+     left: 0px;
+     bottom: 0px;
+     width: 100%;
+     background: turquoise;
+     height: 70px;
+  }
+
+  .soon {
+    width: 50%;
+  }
+
+  .all-right {
+    width: 100%;
+    position: absolute;
+    float: left;
+    top: 430px;
+    left: 10px;
+  }
+
+  .social-icons {
+  }
 }
 
-.bar {
-top: 410px;
+@media only screen and (min-width: 1500px) {
 }
-
-.soon {
-width: 25%;
-top: 425px;
-}
-
-.background {
-  display: block;
-}
-
-footer {
-  bottom: 1%;
-}
-      }
