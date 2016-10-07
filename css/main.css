@@ -85,12 +85,11 @@ a:hover {
 
 .social-icons {
   list-style-type: none;
-  padding: 0;
   width: 250px;
   height: 100px;
   z-index: 3;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .tab {
@@ -303,7 +302,6 @@ h2:before, h2:after {
   position: absolute;
   left: 20px;
   padding: 0;
-  padding-bottom: 5px;
   margin: 0;
   top: 250px;
 }
@@ -319,21 +317,16 @@ footer {
    height: 60px;
    width: 100%;
    background: turquoise;
-   padding: 7% 25% 15% 25%;
 }
 
-.social-icons {
-  position: absolute;
-  z-index: 6;
-  margin: auto;
-  padding-bottom: 20px;
+.all-left {
+  clear: both;
 }
 
 .all-right {
   width: 100%;
-  position: relative;;
-  padding: 25% 5% 25% 5%;
-  margin-bottom: 170px;
+  position: relative;
+  top: 160px;
 }
 
 .grid--item {
@@ -391,16 +384,10 @@ footer {
        padding: 2% 30% 10% 30%;
     }
 
-    .social-icons {
-      position: absolute;
-      margin: 0;
-      z-index: 6;
-    }
-
     .all-right {
       width: 100%;
       position: relative;;
-      padding: 5% 5% 0 5%;
+      padding: 25% 5% 0 5%;
     }
 
     .grid--item {
