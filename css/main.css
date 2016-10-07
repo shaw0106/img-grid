@@ -208,15 +208,15 @@ a:hover {
   transition: opacity 0.5s;
 }
 .img:before {
-  background: rgba(226, 153, 141, 0.4);
+  background: rgba(250, 181, 104, 0.4);
 }
 .img:after {
-  background: linear-gradient(to top, transparent, rgba(174, 63, 63, 0.5), transparent);
+  background: linear-gradient(to top, transparent, rgba(219, 130, 69, 0.5), transparent);
 }
 
 .container {
   position: absolute;
-  top: 50%;
+  top: 86%;
   left: 50%;
   width: 100%;
   opacity: 0;
@@ -232,7 +232,7 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h1 {
@@ -435,6 +435,41 @@ footer {
 
   .soon {
     width: 25%;
+  }
+
+.all-left {
+  float: left;
+}
+
+  .all-right {
+    width: 70%;
+    float: right;
+    top: 430px;
+    left: 10px;
+  }
+}
+
+
+@media only screen and (min-width: 2000px) and (max-width: 4000px) {
+  footer {
+     position: fixed;
+     left: 0px;
+     bottom: 0px;
+     width: 100%;
+     background: turquoise;
+     height: 70px;
+  }
+
+.name {
+  top: 20%;
+}
+
+.bar {
+  top: 30%;
+}
+  .soon {
+    top: 32%;
+    width: 30%;
   }
 
 .all-left {
