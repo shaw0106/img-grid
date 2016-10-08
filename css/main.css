@@ -57,11 +57,10 @@ body {
   position: absolute;
   top: 290px;
   left: 70px;
-  width: 28%;
+  width: 30%;
   line-height: 2em;
   font-size: 1em;
   color: #0a2739;
-  z-index: 3;
 }
 
 
