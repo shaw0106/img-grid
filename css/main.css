@@ -252,15 +252,6 @@ h2:before, h2:after {
   transition: all 0.3s;
 }
 
-.desc {
-  margin: 1em 0 0;
-  font-family: 'Bitter', serif;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 11px;
-  color: white;
-}
 
 .grid--item:hover .img:before,
 .grid--item:hover .img:after,
