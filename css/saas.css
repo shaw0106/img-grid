@@ -226,31 +226,6 @@ a:hover {
   transition: all 0.5s;
 }
 
-h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
-  text-align: center;
-  font-size: 15px;
-}
-
-h1 {
-  font-family: 'Bitter', serif;
-  font-weight: 400;
-  margin-top: 10px;
-  text-align: center;
-  font-size: 56px;
-  color: #242424;
-}
-
-h2:before, h2:after {
-  display: inline-block;
-  margin: 0 0.5em;
-  width: 0.75em;
-  height: 0.03em;
-  background: turquoise;
-  vertical-align: middle;
-  transition: all 0.3s;
-}
 
 .desc {
   margin: 1em 0 0;
