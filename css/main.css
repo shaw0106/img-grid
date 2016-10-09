@@ -248,7 +248,6 @@ h2:before, h2:after {
   width: 0.75em;
   height: 0.03em;
   background: turquoise;
-  content: '';
   vertical-align: middle;
   transition: all 0.3s;
 }
