@@ -67,17 +67,6 @@ body {
   color: #0a2739;
 }
 
-.link {
-  color: #0a2739;
-  text-decoration: underline;
-}
-
-.link:hover {
-  color: turquoise;
-  font-weight: 600;
-  text-decoration: none;
-  line-height: 2em;
-}
 
 /*---------------------------------------------------social media and footer--*/
 
