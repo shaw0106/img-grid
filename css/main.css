@@ -263,8 +263,33 @@ h2:before, h2:after {
 }
 
 /*--------------------------------------------------------------lightbox----*/
+.button1 {
+    background-color: turquoise;
+    color: #0a2739;
+    border: 2px solid #0a2739;
+    border-radius: 2.5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    font-family: 'Bitter', serif;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 70px;
+}
 
+.button1:hover {
+    background-color: turquoise;
+    color: white;
+    border: 2px solid #0a2739;
+    border-radius: 2.5px;
+    background-color: #0a2739;
+}
 
+.onfoot {
+  top: 650px;
+  left: 50px;
+  z-index: 4;
+}
 
 /*--------------------------------------------------------------break points----*/
 
