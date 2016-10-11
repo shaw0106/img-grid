@@ -440,8 +440,9 @@ footer {
     width: 100%;
     position: absolute;
     float: left;
-    top: 430px;
+    top: 850px;
     left: 10px;
+    padding-bottom: 20px;
   }
 }
 
