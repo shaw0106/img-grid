@@ -321,11 +321,11 @@ h2:before, h2:after {
 
 .soon {
   width: 90%;
-  position: absolute;
+  position: relative;;
   left: 20px;
   padding: 0;
   margin: 0;
-  top: 250px;
+  top: 30px;
 }
 
 body {
@@ -348,7 +348,6 @@ footer {
 .all-right {
   width: 100%;
   position: relative;
-  top: 160px;
 }
 
 .grid--item {
