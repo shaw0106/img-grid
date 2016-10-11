@@ -350,6 +350,10 @@ footer {
   position: relative;
 }
 
+.onfoot {
+  display: none;
+}
+
 .grid--item {
   position: relative;
   width: 100%;
@@ -410,6 +414,11 @@ footer {
       position: relative;;
       padding: 25% 5% 0 5%;
       top: 10px;
+    }
+
+    .button1 {
+      left: -50px;
+      margin-top: 13px;
     }
 
     .grid--item {
