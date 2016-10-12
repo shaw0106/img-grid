@@ -225,11 +225,11 @@ a:hover {
 
 .soon {
   width: 90%;
-  position: absolute;
+  position: relative;
   left: 20px;
   padding: 0;
   margin: 0;
-  top: 250px;
+  top: 50px;
 }
 
 body {
@@ -252,18 +252,35 @@ footer {
 .all-right {
   width: 100%;
   position: relative;
-  top: 160px;
 }
 
-.grid--item {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-  float: left;
-  transition: all 0.5s;
-  overflow: hidden;
-  padding-bottom: 10px;
+.img-lg {
+  padding: 15px 15px 65px 15px;
 }
+
+.button1 {
+    background-color: turquoise;
+    color: #0a2739;
+    border: 2px solid #0a2739;
+    border-radius: 2px;
+    padding: 10px 15px;
+    font-size: .5em;
+    letter-spacing: 1.5px;
+    font-family: 'Bitter', serif;
+    margin-top: 11px;
+}
+
+.button1:hover {
+    background-color: turquoise;
+    color: white;
+    border: 2px solid white;
+}
+.onfoot {
+  position: fixed;
+  z-index: 4;
+  left: 10px;
+}
+
     }
 
     @media only screen and (min-width: 427px) and (max-width: 700px) {
@@ -289,11 +306,11 @@ footer {
 
     .soon {
       width: 80%;
-      position: absolute;
+      position: relative;
       left: 20px;
       padding: 0;
       margin: 0;
-      top: 250px;
+      top: 50px;
     }
 
     body {
@@ -316,13 +333,29 @@ footer {
       padding: 25% 5% 0 5%;
     }
 
-    .grid--item {
-      position: relative;
-      width: 100%;
-      max-width: 350px;
-      float: left;
-      transition: all 0.5s;
-      overflow: hidden;
+    .img-lg {
+      padding: 5px 15px 65px 15px;
+    }
+    .button1 {
+        background-color: turquoise;
+        color: #0a2739;
+        border: 2px solid #0a2739;
+        border-radius: 2px;
+        padding: 10px 15px;
+        font-size: .5em;
+        letter-spacing: 1.5px;
+        font-family: 'Bitter', serif;
+        margin-top: 11px;
+    }
+
+    .button1:hover {
+        background-color: turquoise;
+        color: white;
+        border: 2px solid white;
+    }
+    .onfoot {
+      position: fixed;
+      z-index: 4;
     }
 }
 
