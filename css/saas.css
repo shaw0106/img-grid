@@ -95,6 +95,7 @@ html, body {
     font-size: 1em;
     letter-spacing: 1.5px;
     font-family: 'Bitter', serif;
+    margin-top: 12px;
 }
 
 .button1:hover {
@@ -103,7 +104,6 @@ html, body {
     border: 2px solid white;
 }
 .onfoot {
-  top: 650px;
   position: fixed;
   left: 70px;
   z-index: 4;
@@ -269,14 +269,27 @@ footer {
   top: 160px;
 }
 
-.grid--item {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-  float: left;
-  transition: all 0.5s;
-  overflow: hidden;
-  padding-bottom: 10px;
+.button1 {
+    background-color: turquoise;
+    color: #0a2739;
+    border: 2px solid #0a2739;
+    border-radius: 2px;
+    padding: 10px 15px;
+    font-size: .5em;
+    letter-spacing: 1.5px;
+    font-family: 'Bitter', serif;
+    margin-top: 11px;
+}
+
+.button1:hover {
+    background-color: turquoise;
+    color: white;
+    border: 2px solid white;
+}
+.onfoot {
+  position: fixed;
+  z-index: 4;
+  left: 10px;
 }
     }
 
@@ -303,11 +316,11 @@ footer {
 
     .soon {
       width: 80%;
-      position: absolute;
+      position: relative;
       left: 20px;
-      padding: 0;
+      padding-bottom: 10px;
       margin: 0;
-      top: 250px;
+      top: 50px;
     }
 
     body {
@@ -326,17 +339,31 @@ footer {
 
     .all-right {
       width: 100%;
-      position: relative;;
-      padding: 25% 5% 0 5%;
+      position: relative;
+      padding-bottom: 50px;
     }
 
-    .grid--item {
-      position: relative;
-      width: 100%;
-      max-width: 350px;
-      float: left;
-      transition: all 0.5s;
-      overflow: hidden;
+    .button1 {
+        background-color: turquoise;
+        color: #0a2739;
+        border: 2px solid #0a2739;
+        border-radius: 2px;
+        padding: 10px 15px;
+        font-size: .5em;
+        letter-spacing: 1.5px;
+        font-family: 'Bitter', serif;
+        margin-top: 11px;
+    }
+
+    .button1:hover {
+        background-color: turquoise;
+        color: white;
+        border: 2px solid white;
+    }
+    .onfoot {
+      position: fixed;
+      z-index: 4;
+      left: 10px;
     }
 }
 

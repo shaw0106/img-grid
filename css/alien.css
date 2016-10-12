@@ -79,6 +79,7 @@ html, body {
     font-size: 1em;
     letter-spacing: 1.5px;
     font-family: 'Bitter', serif;
+    margin-top: 12px;
 }
 
 .button1:hover {
@@ -87,7 +88,6 @@ html, body {
     border: 2px solid white;
 }
 .onfoot {
-  top: 650px;
   position: fixed;
   left: 70px;
   z-index: 4;
@@ -356,6 +356,7 @@ footer {
     .onfoot {
       position: fixed;
       z-index: 4;
+      top: 650px;
     }
 }
 
