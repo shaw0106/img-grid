@@ -79,7 +79,6 @@ html, body {
     font-size: 1em;
     letter-spacing: 1.5px;
     font-family: 'Bitter', serif;
-    margin-top: 12px;
 }
 
 .button1:hover {
@@ -88,6 +87,7 @@ html, body {
     border: 2px solid white;
 }
 .onfoot {
+  top: 650px;
   position: fixed;
   left: 70px;
   z-index: 4;
@@ -253,34 +253,6 @@ footer {
   width: 100%;
   position: relative;
 }
-
-.img-lg {
-  padding: 15px 15px 65px 15px;
-}
-
-.button1 {
-    background-color: turquoise;
-    color: #0a2739;
-    border: 2px solid #0a2739;
-    border-radius: 2px;
-    padding: 10px 15px;
-    font-size: .5em;
-    letter-spacing: 1.5px;
-    font-family: 'Bitter', serif;
-    margin-top: 11px;
-}
-
-.button1:hover {
-    background-color: turquoise;
-    color: white;
-    border: 2px solid white;
-}
-.onfoot {
-  position: fixed;
-  z-index: 4;
-  left: 10px;
-}
-
     }
 
     @media only screen and (min-width: 427px) and (max-width: 700px) {
@@ -333,6 +305,8 @@ footer {
       padding: 25% 5% 0 5%;
     }
 
+<<<<<<< HEAD
+=======
     .img-lg {
       padding: 5px 15px 65px 15px;
     }
@@ -356,8 +330,8 @@ footer {
     .onfoot {
       position: fixed;
       z-index: 4;
-      top: 650px;
     }
+>>>>>>> parent of b8a829d... saas done
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
