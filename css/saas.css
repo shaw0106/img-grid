@@ -85,7 +85,6 @@ html, body {
 }
 
 /*---------------------------------------------------social media and footer--*/
-
 .button1 {
     background-color: turquoise;
     color: #0a2739;
@@ -95,15 +94,15 @@ html, body {
     font-size: 1em;
     letter-spacing: 1.5px;
     font-family: 'Bitter', serif;
+    margin-top: 12px;
 }
 
 .button1:hover {
-  background-color: #0a2739;
-  color: white;
-  border: 2px solid #0a2739;
+    background-color: #0a2739;
+    color: white;
+    border: 2px solid #0a2739;
 }
 .onfoot {
-  top: 650px;
   position: fixed;
   left: 70px;
   z-index: 4;
@@ -269,32 +268,29 @@ footer {
   top: 160px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .button1 {
     background-color: turquoise;
     color: #0a2739;
     border: 2px solid #0a2739;
     border-radius: 2px;
-    padding: 10px 15px;
-    font-size: .5em;
+    padding: 10px 20px;
+    font-size: 1em;
     letter-spacing: 1.5px;
     font-family: 'Bitter', serif;
-    margin-top: 17.5px;
+    margin-top: 12px;
 }
 
 .button1:hover {
-    background-color: #0a2739;
+    background-color: turquoise;
     color: white;
-    border: 2px solid #0a2739;
+    border: 2px solid white;
 }
 .onfoot {
   position: fixed;
+  left: 70px;
   z-index: 4;
-  left: 10px;
-=======
-=======
->>>>>>> parent of b8a829d... saas done
+}
+
 .grid--item {
   position: relative;
   width: 100%;
@@ -303,10 +299,6 @@ footer {
   transition: all 0.5s;
   overflow: hidden;
   padding-bottom: 10px;
-<<<<<<< HEAD
->>>>>>> parent of b8a829d... saas done
-=======
->>>>>>> parent of b8a829d... saas done
 }
     }
 
