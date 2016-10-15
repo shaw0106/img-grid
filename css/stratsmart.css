@@ -83,9 +83,9 @@ body {
 }
 
 .button1:hover {
-  background-color: #0a2739;
-  color: white;
-  border: 2px solid #0a2739;
+    background-color: #0a2739;
+    color: white;
+    border: 2px solid #0a2739;
 }
 .onfoot {
   position: fixed;
@@ -259,11 +259,11 @@ footer {
     color: #0a2739;
     border: 2px solid #0a2739;
     border-radius: 2px;
-    padding: 10px 15px;
-    font-size: .5em;
+    padding: 10px 20px;
+    font-size: 1em;
     letter-spacing: 1.5px;
     font-family: 'Bitter', serif;
-    margin-top: 17.5px;
+    margin-top: 12px;
 }
 
 .button1:hover {
@@ -273,8 +273,8 @@ footer {
 }
 .onfoot {
   position: fixed;
+  left: 70px;
   z-index: 4;
-  left: 10px;
 }
     }
 
@@ -333,22 +333,22 @@ footer {
         color: #0a2739;
         border: 2px solid #0a2739;
         border-radius: 2px;
-        padding: 10px 15px;
-        font-size: .5em;
+        padding: 10px 20px;
+        font-size: 1em;
         letter-spacing: 1.5px;
         font-family: 'Bitter', serif;
-        margin-top: 11px;
+        margin-top: 12px;
     }
 
     .button1:hover {
-        background-color: turquoise;
+        background-color: #0a2739;
         color: white;
-        border: 2px solid white;
+        border: 2px solid #0a2739;
     }
     .onfoot {
       position: fixed;
+      left: 70px;
       z-index: 4;
-      left: 10px;
     }
 }
 
