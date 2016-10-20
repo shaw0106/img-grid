@@ -181,11 +181,11 @@ a:hover {
   width: 60%;
 }
 
-.vid {
-  padding: 50px 300px 66px 100px;
-}
-.vid-sm {
-  display: none;
+
+.img-lg {
+  background-color: white;
+  width: 100%;
+  padding: 13px 100px 66px 200px;
 }
 
 /*--------------------------------------------------------------lightbox----*/
