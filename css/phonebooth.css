@@ -27,6 +27,18 @@ html, body {
     overflow-x: hidden;
 }
 
+.link {
+  color: #0a2739;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: turquoise;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 2em;
+}
+
 /*--------------------------------------------------------------talking stuff----*/
 
 .logo {
@@ -182,7 +194,7 @@ a:hover {
 }
 
 .vid {
-  padding: 50px 300px 66px 100px;
+  padding: 50px 300px 76px 100px;
 }
 .vid-sm {
   display: none;
