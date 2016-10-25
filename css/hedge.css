@@ -68,6 +68,18 @@ html, body {
   color: #0a2739;
 }
 
+.link {
+  color: #0a2739;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: turquoise;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 2em;
+}
+
 /*---------------------------------------------------social media and footer--*/
 
 .button1 {
@@ -184,14 +196,15 @@ a:hover {
 /*--------------------------------------------------------------image grid----*/
 
 .all-right {
-  width: 60%;
+  width: 100%;
 }
 
 .img-lg {
   background-color: white;
   width: 90%;
   max-width: 700px;
-  padding: 60px 0 70px 80px;
+  padding: 70px 0 95px 0;
+  margin: auto;
 }
 
 
