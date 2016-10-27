@@ -94,12 +94,13 @@ html, body {
 }
 
 .button1:hover {
-    background-color: turquoise;
+    background-color: #0a2739;
     color: white;
-    border: 2px solid white;
+    border: 2px solid turquoise;
 }
+
 .onfoot {
-  top: 650px;
+  padding-top: 15px;
   position: fixed;
   left: 70px;
   z-index: 4;
